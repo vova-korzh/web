@@ -1,0 +1,22 @@
+#square1 {
+    width: 300px;
+    height: 300px;
+    background: blue; 
+    margin: auto;
+    margin-top: 100px;
+    position: absolute;
+  } 
+  #square2 {
+    width: 300px;
+    height: 300px; 
+    background: #1a84ed;  
+    margin: auto;
+    margin-top: 100px;
+    position: absolute;
+
+  } 
+  #square2:hover {
+    transform: translate(20px, 20px);
+    transition-timing-function: linear;
+    transition: transform 3s;
+  }

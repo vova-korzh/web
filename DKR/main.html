@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<header>  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script src="js/code.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</header>  
+ 
+<body>
+<div class= "header"> 
+    <img src="sources/fullHeader.png">
+    <a href="#first"><button class='btn'>GO DRIVE</button></a>
+</div>  
+
+<div class="first" id='first'> 
+    <img src="sources/1.png">
+</div> 
+
+
+<div class="CTA"> 
+    <img src="sources/CTA.png" alt=""> 
+    <a href="#footer"><button class='btn_two'>BUY NOW</button></a>
+</div>  
+
+<div class="two">
+    <img src="sources/2.png">
+</div> 
+
+<div class="three"> 
+    <img src="sources/03.png">
+    <a href="#footer"><button class='btn_three'>REQUEST A CALL</button></a> 
+</div> 
+
+<button class="open-button" onclick="openForm()">Open Form</button> 
+<div class="form-popup" id="myForm">
+    <form class="form-container">
+      <h1>Contact us!</h1> 
+      <label for="fname">First name:</label><br>
+      <input type="text" placeholder="Leave your first name here!" id="fname" name="fname" required>
+      <label for="lname">Last name:</label><br>
+      <input type="text"placeholder="Leave your last name here!" id="lname" name="lname" required>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Leave your email here!"  id="email" name="email" required>
+  
+      <label for="phn"><b>Phone number</b></label>
+      <input type="text" placeholder="Leave your phone number here!" id="phn" name="phn" required>
+  
+      <button type="submit" class="btn">Send!</button>
+      <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+</body> 
+<footer id="footer"> 
+    <div id="serveses">
+        <h1>SERVISES</h1>
+        <p>My OUD</p>
+        <p>Press</p> 
+        <p>Terms</p> 
+        <p>Contact</p>
+    </div> 
+    <div id="AG">
+        <h1>OUT AG</h1>
+        <p>Company</p>
+        <p>Corporate Strategy</p> 
+        <p>Careers</p> 
+        <p>History</p>
+    </div> 
+    <div id="exp">
+        <h1>EXPERIANCE</h1>
+        <p>Investor Relations</p>
+        <p>OUD City</p> 
+        <p>OUD quattro</p> 
+        <p>Sustainabillity</p>
+    </div> 
+    <div id="inf">
+        <h1>GET IN TOUCH</h1>
+        <p><a href="">info@owd.com</a> email us</p>
+        <p><span>+1 441 544 656</span> call us</p>
+        <p><span>+1 441 544 656</span> fax us</p>
+        <p>Find up via <span>GOOGLE maps </span></p>
+    </div>
+    <script src="js/code.js"></script>
+</footer> 
+
+
+

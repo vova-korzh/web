@@ -1,0 +1,14 @@
+.table-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container {
+    text-align: center;
+}
+
+.time-container h3 {
+    display: inline-block;
+}

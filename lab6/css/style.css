@@ -1,0 +1,33 @@
+body {
+    background-color: pink;
+}
+
+
+#loader { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid palevioletred;
+    border-right: 16px solid palevioletred;
+    border-bottom: 16px solid lightsalmon;
+    border-left: 16px solid pink;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+#myDiv {
+    display: none;
+    text-align: center; 
+    font-size: 20px; 
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
